@@ -1,0 +1,15 @@
+Generate a shiny app primarily for looking at previously curated single cell data with Seurat.
+once this is developed, can think about including a QC component as well.
+
+Basics of app:
+
+Input to load dataset
+TSNE plot showing clusters (possibly changable between clustering resolutions, animations?)
+Option to include the clustree images as well (the linked levels graph, cluster changes across resolution)
+DE list for all clusters, individual clusters, positive/negative logFC, p values
+Heatmap
+
+Way to select previously identified OR custom generation of gene lists for analysis in heatmaps, dotplots etc.
+
+way to subset individual/groups of clusters
+will probably need to put this in a seperate tab, and have input for what clusters to seperate and same displays as main page
