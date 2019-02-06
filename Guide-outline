@@ -8,8 +8,13 @@ TSNE plot showing clusters (possibly changable between clustering resolutions, a
 Option to include the clustree images as well (the linked levels graph, cluster changes across resolution)
 DE list for all clusters, individual clusters, positive/negative logFC, p values
 Heatmap
+Violin plots
+Dot plots
+
 
 Way to select previously identified OR custom generation of gene lists for analysis in heatmaps, dotplots etc.
 
 way to subset individual/groups of clusters
 will probably need to put this in a seperate tab, and have input for what clusters to seperate and same displays as main page
+
+Merging of multiple datasets?
