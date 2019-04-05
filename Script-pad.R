@@ -12,7 +12,9 @@ kidney <- grep(pattern = "[[:punct:]]", x = seurat@data@Dimnames[[1]])
 
 seurat@data@Dimnames[[1]][kidney]
 
-
+write_rds(df, "10XOrganoid/data/seurat_metadata.Rds")
+metadata <- readRDS("10XOrganoid/data/seurat_metadata.Rds")
+df <- cbind(seurat@meta.data, tsne_1, tsne_2, tsne_3)
 #3d tsne projection
 seurat <- RunTSNE(object = seurat, reduction.use = "cca.aligned", dims.use = 1:10, do.fast = TRUE, dim.embed = 3)
 

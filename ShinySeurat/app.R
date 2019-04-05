@@ -15,7 +15,7 @@ ui <- fluidPage(
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
       sidebarPanel(
-         fileInput(inputId = "dataset", label = NULL,  buttonLabel = ".rds Seurat file", accept = ".rds")
+         fileInput(inputId = "dataset", label = NULL,  buttonLabel = ".rds data file", accept = ".rds")
       ),
       
       # Show a plot of the generated distribution
